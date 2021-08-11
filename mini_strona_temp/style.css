@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav{
+    margin: 20px auto;
+    text-align: center;
+    max-width: 1440px;
+
+}
+
+nav a:hover{
+    border-bottom: 2px solid #555;
+    color: black;
+}
+
+nav a{
+    font-size: 1.8rem;
+    display: inline-block;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    margin: 0 20px;
+
+}
+
+nav a.reservation{
+    font-size: 2rem;
+    border: 2px solid #555;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+}
+
+nav a.reservation:hover{
+    color: black;
+}
+
+header{
+    background-image: url(img.jpg);
+    height: 40vh;
+    background-size: cover;
+
+}
+
+main{
+    max-width: 1440px;
+    margin: 5vh auto;
+    font-size: 0;
+
+}
+
+main p.description{
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0 30px 50px 30px;
+    line-height: 180%;
+}
+main div.feature{
+    display: inline-block;
+    width: 33.33%;
+}
+
+main div.image{
+    height: 200px;
+    background-color:black;
+    margin: 20px 30px;
+
+}
+
+main h2{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+header h1{
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 40vh;
+    background-color: rgba(0,0,0,50%);
+}
