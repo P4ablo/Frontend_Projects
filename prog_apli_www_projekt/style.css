@@ -69,19 +69,30 @@ main div.feature{
     width: 33.33%;
 }
 
-main div.image{
+main span.image{
+    display: block;
     height: 200px;
-    background-color:black;
+    background-image: url(img/mat.jpg);
+    background-position: center;
     margin: 20px 30px;
 
 }
+main span.image2{
+    display: block;
+    height: 200px;
+    background-image: url(img/fiz.jpg);
+    background-position: center;
+    margin: 20px 30px;
 
-main h2{
-    font-size: 2rem;
-    text-align: center;
-    color: white;
 }
+main span.image3{
+    display: block;
+    height: 200px;
+    background-image: url(img/ang.jpg);
+    background-position: center;
+    margin: 20px 30px;
 
+}
 footer{
     background-color: black;
     height: 5vh;
@@ -90,13 +101,6 @@ footer{
 .media_icons {
     text-align: center;
 }
-
-/* footer p {
-    color: white;
-    text-align: center;
-    padding: 2rem 0;
-    font-size: 2rem;
-} */
 
 footer a {
     text-decoration: none;
