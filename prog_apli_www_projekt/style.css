@@ -44,6 +44,16 @@ nav a.reservation:hover{
     color: black;
 }
 
+nav a.login-img{
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+nav a.login-img:hover {
+    text-decoration: none;
+}
+
 header{
     background-image: url(img/header-img.png);
     height: 40vh;
@@ -74,6 +84,7 @@ main span.image{
     height: 200px;
     background-image: url(img/mat.jpg);
     background-position: center;
+    background-size: cover;
     margin: 20px 30px;
 
 }
@@ -81,7 +92,8 @@ main span.image2{
     display: block;
     height: 200px;
     background-image: url(img/fiz.jpg);
-    background-position: center;
+    background-position: center top;
+    background-size: cover;
     margin: 20px 30px;
 
 }
@@ -89,7 +101,8 @@ main span.image3{
     display: block;
     height: 200px;
     background-image: url(img/ang.jpg);
-    background-position: center;
+    background-position: center top;
+    background-size: cover;
     margin: 20px 30px;
 
 }
