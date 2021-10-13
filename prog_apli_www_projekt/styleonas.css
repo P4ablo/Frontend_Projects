@@ -60,6 +60,7 @@ body {
   font-weight: 100;
   letter-spacing: 3px;
   color: #ccc;
+  text-decoration: underline;
 }
 
 .profile p {
