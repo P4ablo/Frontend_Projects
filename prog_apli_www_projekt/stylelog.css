@@ -66,3 +66,9 @@ body {
 .box input[type = "submit"]:hover {
     background: #2ecc71;
 }
+
+a.signin {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
