@@ -66,7 +66,7 @@ section{
 	margin-top: -25px;
 	z-index: 100;
 	cursor: pointer;
-	background: black;
+	background: red;
 	box-shadow: 0 9px 26px rgba(58, 87,135,0.45);
 	transition: all 200ms linear;
 	outline: none;
@@ -98,7 +98,7 @@ section{
 	padding: 75px 50px 75px;
 	overflow:hidden;
 	background: #f5f6fa;
-	border:1ps solid #f1f1f1;
+	border:1px solid red;
 	border-radius: 10px;
 	transition: all .3s ease-in-out;
 }
@@ -132,7 +132,7 @@ section{
 	margin-bottom: 12px;
 }
 .listing-rating i{
-	color: #007aff;
+	color: red;
 }
 .testimonials-avatar h3{
 	font-weight: 600;
