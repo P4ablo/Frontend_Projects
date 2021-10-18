@@ -1,4 +1,3 @@
-//   all ------------------
 function initParadoxWay() {
     "use strict";
    
@@ -29,7 +28,6 @@ function initParadoxWay() {
         });
     }
     
-// bubbles -----------------
     
     
     setInterval(function () {
@@ -45,7 +43,6 @@ function initParadoxWay() {
     
 }
 
-//   Init All ------------------
 $(document).ready(function () {
     initParadoxWay();
 });
