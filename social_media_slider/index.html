@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="side-menu">
+        <div class="toggle-btn fas fa-chevron-left"></div>
+        <a href="#">
+            <i class="fab fa-facebook"></i>
+            Facebook
+        </a>
+        <a href="#">
+            <i class="fab fa-twitter"></i>
+            Twitter
+        </a>
+        <a href="#">
+            <i class="fab fa-youtube"></i>
+            Youtube
+        </a>
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+            Instagram
+        </a>
+        <a href="#">
+            <i class="fab fa-discord"></i>
+            Discord
+        </a>
+    </div>
+
+    <script>
+        $(".toggle-btn").click(function(){
+            $(".side-menu").toggleClass("active");
+            $(this).toggleClass("fa-chevron-right");
+        });
+    </script>
+</body>
+</html>
