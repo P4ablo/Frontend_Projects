@@ -17,14 +17,14 @@ body{
 	font-size: 13px;
 	text-align: center;
 	font-family: "Roboto";
-	background-image: url(img/chalkboard.jpg);
+	background-image: url(/prog_apli_www_projekt/img/chalkboard.jpg);
     background-repeat: no-repeat;
 }
 section{
 	float: left;
 	position: relative;
 	padding: 30px 0;
-    background-image: url(img/chalkboard.jpg);
+    background-image: url(/prog_apli_www_projekt/img/chalkboard.jpg);
     background-repeat: no-repeat;
 	z-index: 1;
 	width: 100%;

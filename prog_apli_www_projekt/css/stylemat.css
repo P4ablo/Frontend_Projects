@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(img/chalkboard.jpg);
+    background-image: url(/prog_apli_www_projekt/img/chalkboard.jpg);
   }
   .middle{
     position: absolute;
